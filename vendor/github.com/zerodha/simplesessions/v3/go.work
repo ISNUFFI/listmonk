@@ -1,0 +1,10 @@
+go 1.18
+
+use (
+	.
+	./stores/memory
+	./stores/postgres
+	./stores/redis
+	./stores/securecookie
+	./examples
+)
